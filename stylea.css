@@ -1,0 +1,68 @@
+.addButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #fff;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  right:0%;
+}
+
+.textstyle{
+  color: #4f5df6;
+  font-family: sans-serif;
+  
+}
+.tablestyle{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tablestyle thead tr {
+  background-color: #b63723;
+  color: #ffffff;
+  text-align: left;
+}
+
+.tablestyle th,
+.tablestyle td {
+    padding: 12px 15px;
+}
+
+.tablestyle tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.tablestyle tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.tablestyle tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+
+button {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  width: 20%;
+  left: 40%;
+}

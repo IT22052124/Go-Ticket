@@ -1,0 +1,75 @@
+<body>
+        <div class="side-nav">
+            <img class="bus" src="image/bus.png">
+            <ul>
+                <li><a href="#"><img class="icon" src="image/profile.png">Profile</a></li>
+                <li id="Reservation"><a href="index.php"><img class="icon" src="image/ticket.png"><span>Reservation</span></a></li>
+                <li id="cancelReservation"><a href="cancelReservation.php"><img class="icon" src="image/cancel.png">Cancel Reservation</a></li>
+                <li><a href="#"><img class="icon" src="image/payment.png">Payments</a></li>
+                <li><a href="#"><img class="icon" src="image/support.png">Support</a></li>
+                <li><a href="#"><img class="icon" src="image/review.png">Reviews</a></li>
+            </ul>
+        </div>
+
+css 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bus{
+    margin-top: 20px;
+    height: 10%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.side-nav{
+    background-color: #b63723;
+    width: 250px;
+    height: 750px;
+    font-size: 25px;
+    float:left  
+    
+}
+
+.side-nav li:hover{
+    background-color: #440202;
+}
+
+
+.side-nav li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    padding-left: 5%;
+    
+}
+
+#reservation{
+  background-color: rgb(186, 167, 229);
+}
+
+#cancelReservation{
+  font-size: 20px;
+}
+
+.side-nav span{
+  color: #fff;
+}
+.side-nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    margin-right: 4%;
+    width: 25px;
+    height: 25px;
+}

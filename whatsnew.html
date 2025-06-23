@@ -1,0 +1,232 @@
+<html>
+
+<link rel="stylesheet" href="styles/footer.css">
+ <style>
+
+    body{
+        margin:0 auto;
+    }
+    .bimg{
+        display: block;
+        background-repeat: none;
+        background-size: cover;
+        
+        width:100%;
+        height:100%;
+
+    }
+
+    
+footer {
+    background-color: #121315;
+    color: #a7a7a7;
+    font-size: 12px;
+  }
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 1em;
+  }
+  h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.1 em;
+    white-space: nowrap;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color: #2a8ded;
+  }
+  .about p {
+    text-align: left;
+    line-height: 1;
+    margin:0 ;
+  }
+  input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 2px;
+  }
+  button {
+    background-color: #c7940a;
+    color: #ffffff;
+  }
+  div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1 em;
+    flex-direction: row;
+    margin-top: 0.5em;
+  }
+  .social i {
+    color: #bac6d9;
+  }
+  
+  .copyright {
+    padding: 0.1em 0em;
+    background-color: #25262e;
+  }
+  
+  
+  
+  
+  .copyright p {
+    font-size: 0.9em;
+    text-align:center;
+  }
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+  
+  }
+  #header{
+  align-items: center;
+  object-position: center;
+  background-color: black;
+  
+
+ }
+ #header a:hover{
+  background-color: rgb(170, 157, 157);
+ }
+ #header  a {
+  font-family: monospace;
+  font-size:large;
+  
+  text-decoration: none;
+  align-items: center;
+  
+
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 20px;
+ }
+
+
+ </style>
+<head>
+    </head>
+
+
+    <body>
+        <script>  alert("Find whats new on us !")</script>
+        <div id="header"><center><br><a href="Loginform.php">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp; <a href="whatsnew.html">What's new</a>
+            &nbsp;&nbsp;&nbsp;&nbsp; <a href="contactus.html">Contact us</a>
+            &nbsp;&nbsp;&nbsp;&nbsp; <a href="Registration.php">Sign Up</a>
+            &nbsp;&nbsp;&nbsp;&nbsp; <a href="contactus.html">About us</a></center>
+           
+            <br>
+        </div>
+    <img src="src/images/neww.jpg" class="bimg">
+    <footer>
+        <div class="row primary">
+          <div class="column about">
+            <h3>ChocoBois Developer</h3>
+            <p>
+              Gotickets is developled to make your Jornerey bookings do easier through our website
+
+            </p>
+                      <div class="social">
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <i class="fa-brands fa-instagram-square"></i>
+                        <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-youtube-square"></i>
+              <i class="fa-brands fa-whatsapp-square"></i>
+                      </div>
+          </div>
+          <div class="column links">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>
+                <a href="#faq">facebook</a>
+              </li>
+              <li>
+                <a href="#cookies-policy">twitter</a>
+              </li>
+              <li>
+                <a href="#terms-of-services">Instagram</a>
+              </li>
+              <li>
+                <a href="#support">Whatsapp</a>
+              </li>
+  
+            </ul>
+          </div>
+            <div class="column links">
+              <h3>About Us</h3>
+              <ul>
+                <li>
+                  <a href="#faq">F.A.Q</a>
+                </li>
+                <li>
+                  <a href="#cookies-policy">Cookies Policy</a>
+                </li>
+                <li>
+                  <a href="#terms-of-services">Terms Of Service</a>
+                </li>
+                <li>
+                  <a href="#support">Support</a>
+                </li>
+                <li>
+                  <a href="adminlogin.php">login as admin</a>
+                </li>
+  
+              </ul>
+            </div>
+          <div class="column subscribe">
+            <h3>Newsletter</h3>
+            <div>
+              <input type="email" placeholder="Your email id here" />
+              <button>Subscribe</button>
+             
+            </div>
+            
+  
+          </div>
+         
+        </div>
+        <div class="row copyright">
+            <p>Copyright &copy; 2023 SLIIT Developer</p>
+          </div>
+       
+      </footer>
+
+
+    </body>
+</html>

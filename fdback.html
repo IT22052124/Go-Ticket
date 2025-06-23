@@ -1,0 +1,140 @@
+<html>
+<head>
+
+<title>Feedback</title>
+<link href="feed.css" rel="stylesheet">
+</head>
+<body>
+ <div class="side-nav">
+            <img class="bus" src="image/bus.png">
+            <ul>
+                <li><a href="profile.php"><img class="icon" src="image/profile.png">Profile</a></li>
+                <li id="Reservation"><a href="reservation.php"><img class="icon" src="image/ticket.png">Reservation</a></li>
+                <li id="cancelReservation"><a href="cancelReservation.php"><img class="icon" src="image/cancel.png">Cancel Reservation</a></li>
+                <li><a><img class="icon" src="image/payment.png">Payments</a></li>
+                <li id= "Reviews"><a href="fdback.html"><img class="icon" src="image/review.png"> <span>Feedback</span></a></li>
+				<li id="log"><a href="index.php"><img class="icon" src="image/log.png">Log Out</a></li>
+			</ul>
+        </div>
+<div class="contact-form">
+  <span class="heading">Feedback</span>
+  <form class="form" action="submitfeedback.php" method="POST">
+  
+    <label for="name">Name:</label>
+    <input type="text" name="name" placeholder="eg: Joseph Vijay" required="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="eg: Josephvijay@mail.com"required="">
+	
+   
+	 <label for="name">Rating</label>
+
+	<div class="rating">
+	
+  <input value="5" name="rating1" id="1" type="radio">
+  <label for="1">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+  </label>
+  <input value="4" name="rating1" id="2" type="radio">
+  <label for="2">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+  </label>
+  <input value="3" name="rating1" id="3" type="radio">
+  <label for="3">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+  </label>
+  <input value="2" name="rating1" id="4" type="radio">
+  <label for="4">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+  </label>
+  <input value="1" name="rating1" id="5" type="radio">
+  <label for="5">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+  </label>
+</div>
+
+	
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required=""></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+</body>
+
+</div>
+    <footer>
+        <div class="row primary">
+          <div class="column about">
+            <h3>ChocoBois Developer</h3>
+            <p>
+              Gotickets is developled to make your Jornerey bookings do easier through our website
+
+            </p>
+                      <div class="social">
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <i class="fa-brands fa-instagram-square"></i>
+                        <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-youtube-square"></i>
+              <i class="fa-brands fa-whatsapp-square"></i>
+                      </div>
+          </div>
+          <div class="column links">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>
+                <a href="#faq">facebook</a>
+              </li>
+              <li>
+                <a href="#cookies-policy">twitter</a>
+              </li>
+              <li>
+                <a href="#terms-of-services">Instagram</a>
+              </li>
+              <li>
+                <a href="#support">Whatsapp</a>
+              </li>
+  
+            </ul>
+          </div>
+            <div class="column links">
+              <h3>About Us</h3>
+              <ul>
+                <li>
+                  <a href="#faq">F.A.Q</a>
+                </li>
+                <li>
+                  <a href="#cookies-policy">Cookies Policy</a>
+                </li>
+                <li>
+                  <a href="#terms-of-services">Terms Of Service</a>
+                </li>
+                <li>
+                  <a href="#support">Support</a>
+                </li>
+  
+              </ul>
+            </div>
+          <div class="column subscribe">
+            <h3>Newsletter</h3>
+            <div>
+              <input type="email" placeholder="Your email id here" />
+              <button>Subscribe</button>
+             
+            </div>
+            
+  
+          </div>
+         
+        </div>
+        <div class="row copyright">
+            <p>Copyright &copy; 2023 SLIIT Developer</p>
+          </div>
+       
+      </footer>
+
+</html>
+
+<!-- Reference https://uiverse.io/SelfMadeSystem/selfish-starfish-40-->
+
+
